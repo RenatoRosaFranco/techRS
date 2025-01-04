@@ -1,0 +1,129 @@
+body {
+  position: relative;
+  font-size: 17px;
+}
+
+.bold {
+  position: relative;
+  font-weight: bold;
+}
+
+.uppercase {
+  position: relative;
+  text-transform: uppercase;
+}
+
+#hero {
+  position: relative;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(25, 29, 28, 1) 35%, rgba(62, 59, 75, 1) 100%);
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  .title {
+    position: relative;
+    font-size: 80px !important;
+    margin-bottom: 10px;
+  }
+
+  .color-green {
+    color: #0e7732;
+  }
+
+  .color-yellow {
+    color: #f0b416;
+  }
+
+  .color-red {
+    color: #881814;
+  }
+
+  .subtitle {
+    position: relative;
+    color: #999;
+  }
+
+  button {
+    position: relative;
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+  }
+}
+
+#banner {
+  position: relative;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(25, 29, 28, 1) 35%, rgba(62, 59, 75, 1) 100%);
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  i {
+    position: relative;
+    margin-right: 12px;
+  }
+}
+
+#about {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  border: 1px solid #999;
+}
+
+#learn {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#social-cta {
+  position: relative;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(25, 29, 28, 1) 35%, rgba(62, 59, 75, 1) 100%);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #FFF;
+}
+
+#testimonials {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .avatar-sm {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    margin-left: 5px;
+    border-radius: 44px;
+    border: 2px solid #EEE;
+    margin-right: 8px;
+    padding: 2px;
+  }
+}
+
+.social-list {
+  i {
+    position: relative;
+    border: 1px solid #EEE;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 3px;
+  }
+}
+
+#footer {
+  position: relative;
+  padding-top: 40px;
+  border-top: 1px solid #EEE;
+  background-color: #f8f8f8;
+  padding-bottom: 50px;
+
+  a {
+    position: relative;
+    color: #7d7d7d;
+  }
+} 

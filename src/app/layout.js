@@ -1,6 +1,20 @@
+// Imports
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 
+// Components
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+
+// bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// react-toastify
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+import { Banner } from "./components/Banner";
+
+// Configuration
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -19,8 +33,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://kit.fontawesome.com/5165849ba2.js" crossorigin="anonymous"></script>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Banner />
+        <Header />
         {children}
+
+        <ToastContainer />
+        <Footer />
       </body>
     </html>
   );

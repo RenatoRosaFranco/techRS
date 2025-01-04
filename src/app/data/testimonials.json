@@ -1,0 +1,20 @@
+[
+  {
+    "avatarUrl": "joao-silva.jpg",
+    "name": "João Silva",
+    "body": "O Tech RS foi um divisor de águas para mim. Com o curso de desenvolvimento web, consegui meu primeiro emprego na área e hoje sou desenvolvedor web em uma empresa de tecnologia em Porto Alegre",
+    "position": "ex-aluno"
+  },
+  {
+    "avatarUrl": "maria-fernandes.jpg",
+    "name": "Maria Fernandes",
+    "body": "O Tech RS foi um divisor de águas para mim. Com o curso de desenvolvimento web, consegui meu primeiro emprego na área e hoje sou desenvolvedor web em uma empresa de tecnologia em Porto Alegre",
+    "position": "ex-aluna"
+  },
+  {
+    "avatarUrl": "julio-quintela.jpg",
+    "name": "Júlio Quintela",
+    "body": "O Tech RS foi um divisor de águas para mim. Com o curso de desenvolvimento web, consegui meu primeiro emprego na área e hoje sou desenvolvedor web em uma empresa de tecnologia em Porto Alegre",
+    "position": "ex-aluno"
+  }
+]
