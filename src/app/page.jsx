@@ -172,7 +172,7 @@ export default function Home() {
                           <div className="panel panel-default">
                             <div className="panel panel-body">
                               <h2 className="bold">
-                                <i class="fa-solid fa-infinity"></i>
+                                <i className="fa-solid fa-infinity"></i>
                               </h2>
                               <h4 className="bold">DevOps</h4>
                               <p>Noções de Docker e Git para 
@@ -205,27 +205,27 @@ export default function Home() {
               <Slide direction='up'>
                 <ul className="list-unstyled list-inline social-list text-center">
                   <li>
-                    <a href="https://facebook.com/">
+                    <a href={process.env.REACT_APP_FACEBOOK_URL}>
                       <i className="fab fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/">
+                    <a href={process.env.react_APP_INSTAGRAM_URL}>
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/">
+                    <a href={process.env.REACT_APP_YOUTUBE_URL}>
                       <i className="fa-brands fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/">
+                    <a href={process.env.REACT_APP_TIKTOK_URL}>
                       <i className="fa-brands fa-tiktok"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/">
+                    <a href={process.env.REACT_APP_DISCORD_URL}>
                       <i className="fa-brands fa-discord"></i>
                     </a>
                   </li>
